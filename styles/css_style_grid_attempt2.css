@@ -1,0 +1,169 @@
+#info h3 {display: none;}
+
+#heading {
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-template-columns: 30% 70%;
+    grid-gap: 1%;
+}
+
+#logo {
+    grid-row: 1/3;
+    grid-column: 1/1;
+    display: flex;
+    justify-content: center;
+}
+
+#heading img {
+    max-height: 150px;
+}
+
+#header {
+    grid-row: 1/3;
+    grid-column: 2/2;
+    align-self: center;
+}
+
+nav {
+    grid-row: 3/3;
+    grid-column: 2/2;
+}
+
+
+#pagecontent {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 20px;
+}
+
+#sideimg {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    max-height: 370px;
+}
+
+#pagetitle {
+    grid-row: 1;
+    grid-column: 2/2;
+    text-indent: 20px;
+}
+
+#info{
+    grid-row: 2;
+    grid-column: 2;
+    padding-left: 40px;
+    max-width: 700px;
+}
+
+.info1 {
+    font-style: italic;
+}
+
+.info2 {
+    padding-left: 20px;
+}
+
+ul, ol {
+    margin: 0;
+}
+
+#info h5 {
+    margin-bottom: 0;
+}
+
+#info span {
+    font-weight: bold;
+}
+
+.marginbot {
+    margin-bottom: 20px;
+}
+
+.justifycenter {
+    display: flex;
+    justify-content: center;
+}
+
+h5 {font-size: 18px;}
+h4 {font-size: 20px;}
+h2 {font-size: 26px;}
+h1 {font-size: 32px;}
+.italic {font-style: italic;}
+
+table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+th {
+    text-align: left;
+    text-decoration: underline;
+    }
+
+
+.underlinetext {
+    text-decoration: underline;
+}
+
+.cellalignright {text-align: right;}
+.cellaligncenter {text-align: center;}
+.colwidthset {width: 20%;}
+
+td {padding: 0;}
+table {border-spacing: 0;}
+
+#mapholder {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 30% 70%;
+    grid-gap: 20px;
+}
+
+#mapholder h4 {margin: 0; grid-column: 1/1;}
+#mapholder .address {display:block; 
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+iframe {grid-column: 2/2;
+        justify-self: right;
+}
+
+#info .formspan {text-decoration: none; font-weight: normal; font-size: 16px;}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#info form .formdiv {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 300px;
+}
+
+.fullwidth {width: 100%;}
+
+.nomargin {margin:0;}
+.nobotmargin {margin-bottom: 0;}
+
+form input {
+    border:none;
+    border-bottom: 1px solid #ccc;
+}
+
+form fieldset {margin-top: 15px;}
+
+.displayflexcolumn{display: flex; flex-flow: column wrap;}
+
+.smallMarginRight{margin-right: 15px;}
+
+#Registerbutton{all: default;}
+
+
+
+
+
