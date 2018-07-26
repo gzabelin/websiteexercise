@@ -161,7 +161,7 @@ form fieldset {margin-top: 15px;}
 
 .smallMarginRight{margin-right: 15px;}
 
-#Registerbutton{all: default;}
+#info form #Registerbutton{border: all;}
 
 
 
